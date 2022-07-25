@@ -1,0 +1,43 @@
+
+.about1 div {
+    display:inline-block ;
+    padding-top: 2rem;
+    img {
+        float: left;
+        padding-left: 5rem;
+    }
+    p { 
+        color: $color-parrafo;
+        font: $formato-parrafo;
+        width: 50%;
+        float: right;
+        padding-right: 5rem;
+        padding-top: 2rem;
+        text-align: justify;
+    
+    }
+}
+
+.about2 div {
+    display: inline-block;
+
+    img {
+        float: right;
+        padding: 2rem;
+        padding-right: 5rem;
+    }
+    p { 
+        color: $color-parrafo;
+        font: $formato-parrafo;
+        width: 50%;
+        float: left;
+        padding-left: 5rem;
+        padding-top: 3rem;
+        text-align: justify;
+    
+    }
+}
+
+.navbar {
+    float: right;
+}
